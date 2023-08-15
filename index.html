@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aranna Barua - Portfolio</title>
+
+  <!-- main style css link -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <!-- media query style css link -->
+  <link rel="stylesheet" href="assets/css/mediaqueries.css" />
+</head>
+
+<body>
+
+  <!-- navigation -->
+  <nav id="desktop-nav">
+    <div class="logo">Aranna Barua</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- navigation end -->
+
+  <!-- hanbar -->
+  <nav id="hamburger-nav">
+    <div class="logo">Aranna</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <!-- handbar end -->
+
+  <!-- profile section -->
+  <section id="profile">
+    <div class="section__pic-container first">
+      <img src="./assets/img/profile-pic.png" alt="Aranna profile picture" style="opacity: 1;" />
+      <div class="floatingImg">
+        <img src="assets/img/html.png" alt="">
+        <img src="assets/img/css.png" alt="">
+        <img src="assets/img/js.png" alt="">
+        <img src="assets/img/php.png" alt="">
+      </div>
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Aranna</h1>
+      <p class="section__text__p2">Full-Stack Web Developer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">
+          Download CV
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <img src="./assets/img/linkedin.png" alt="My LinkedIn profile" class="icon"
+          onclick="location.href='https://www.linkedin.com/in/aranna-barua-93110a241/'" />
+        <img src="./assets/img/github.png" alt="My Github profile" class="icon"
+          onclick="location.href='https://github.com/ArannaBarua1971'" />
+      </div>
+    </div>
+  </section>
+  <!-- profile section end -->
+
+  <!-- about section -->
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="./assets/img/profile-pic-2.png" alt="Profile picture" class="about-pic" />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/img/experience.png" alt="Experience icon" class="icon" />
+            <h3>Experience</h3>
+            <p>3+ years <br />Full-Stack Laravel Development</p>
+          </div>
+          <div class="details-container">
+            <img src="./assets/img/education.png" alt="Education icon" class="icon" />
+            <h3>Education</h3>
+            <p>Computer Science in Diploma</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p class="section__text__p2" style="font-size: 16px;">
+            Aranna Barua🚀 | Full-Stack Laravel Developer | Web Enthusiast | Passionate about Creating Digital Delights
+            <br> <br>
+
+            👋 Hello, and welcome to my LinkedIn profile! I'm Aranna Barua, a highly motivated and creative Full-Stack
+            Laravel Developer with a passion for crafting exceptional web applications. With a track record of
+            successful projects and a dedication to continuous learning,<br> <br>
+
+            🛠️ Tech Wizardry: Proficient in the Laravel framework, I possess a strong command over front-end
+            technologies like HTML, CSS, and JavaScript, as well as back-end expertise in PHP. My in-depth understanding
+            of Laravel's MVC architecture allows me to build robust, scalable, and maintainable web applications. <br>
+            <br>
+
+            💡 End-to-End Solutions: From concept to deployment, I am involved in every phase of development, ensuring
+            seamless integration and impeccable user experiences. I specialize in API integration, enabling applications
+            to connect with third-party services effortlessly. <br> <br>
+
+            🔒 Security Champion: I take security seriously and prioritize implementing rigorous measures to protect
+            applications and user data from potential threats. My commitment to safeguarding digital assets builds trust
+            among clients and users. <br> <br>
+
+            🚀 Passion for Innovation: As a web enthusiast, I stay up-to-date with the latest industry trends and
+            emerging technologies. My curiosity fuels my creativity, and I love exploring new ways to elevate the
+            digital landscape. <br> <br>
+
+
+
+            📞 Let's Connect: I'm always eager to network and discuss exciting opportunities. Whether you're looking for
+            a Full-Stack Laravel Developer to bring your ideas to life or simply want to chat about web development,
+            feel free to reach out! Let's build something incredible together.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- about section end -->
+
+  <!-- experience section -->
+  <section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Frontend Development</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/img/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>HTML</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/img/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>CSS</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/img/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>SASS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/img/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>JavaScript</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/img/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>J-Query</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/img/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>tailwind CSS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/img/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>BootStrap</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/img/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Responsive Design</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Backend Development</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/img/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>MySQL</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/img/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>PHP</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/img/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Laravel</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/img/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Git</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- experience section end -->
+
+  <!-- projects section -->
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/img/project-1.png" alt="Project 1" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Katen-Blog</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://github.com/ArannaBarua1971/katen', '_blank')">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://arannabarua1971.github.io/katen/','_blank')">
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/img/project-2.png" alt="Project 2" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Podustrty</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://github.com/ArannaBarua1971/produstry','_blank')">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://arannabarua1971.github.io/produstry/')">
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/img/project-3.png" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Project Three</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- projects section end -->
+
+  <!-- contact section -->
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/img/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="mailto:arannabaruase71@gmail.com">arannabaruase71@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/img/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+        <p><a href="https://www.linkedin.com/in/aranna-barua-93110a241/" target="_blank">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+  <!-- contact section end -->
+
+  <!-- footer section -->
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p class="section__text__p2" style="font-size: 16px;">Copyright &#169; 2023 Aranna Barua. All Rights Reserved.</p>
+  </footer>
+  <!-- footer section end-->
+
+
+  <!-- main js link -->
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
